@@ -9,6 +9,42 @@
 
 .navbar-dark .navbar-brand {
     font-family: "Helvetica Neue", Helvetica;
+    font-size: 28px;
     font-weight: 100;
     color: white;
+}
+
+.hero {
+    background: image_url('hero.jpg') no-repeat center center fixed;
+    height: 370px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-shadow: 0px 1px 3px #2a2a2a;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+    margin: 0;
+}
+
+.frosty {
+    background: rgba($color: #000000, $alpha: 0.5);
+    color: white;
+}
+
+.frosty h1 {
+    font-family: "Helvetica Neue", Helvetica;
+    font-weight: 100;
+    text-shadow: rgba($color: #000000, $alpha: 0.95) 1px 1px;
+}
+
+.frosty h2 {
+    font-family: "Helvetica Neue", Helvetica;
+    font-weight: 200;
+    text-shadow: rgba($color: #000000, $alpha: 0.95) 1px 1px;
+}
+
+.btn {
+    border-radius: 0;
 }
