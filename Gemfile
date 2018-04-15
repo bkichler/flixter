@@ -60,3 +60,11 @@ gem 'bootstrap', '~> 4.0.0'
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
+
+# SimpleForm
+
+gem 'simple_form'
+
+# Devise
+
+gem 'devise'
