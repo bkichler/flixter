@@ -24,10 +24,12 @@
         <a class="nav-link" href="#">Pricing</a>
       </li>
     </ul>
+    <ul class="navbar-nav right">
+      <li class="nav-item">
+        <%= link_to 'Log in', '#', class: 'nav-link' %>
+      </li>
+    </ul>
   </div>
-    <span class="navbar-text">
-      <%= link_to 'Log in', '#' %>
-    </span>
 </nav>
 
     <%= yield %>
