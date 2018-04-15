@@ -24,7 +24,7 @@
               <a class="nav-link" href="#">Pricing</a>
             </li>
           </ul>
-          <ul class="nav navbar-nav float-lg-right">
+          <ul class="navbar-nav right">
           <% if user_signed_in? %>
             <li class="nav-item">
               <%= link_to 'Log out', destroy_user_session_path, method: :delete, class: 'nav-link' %>
@@ -49,7 +49,14 @@
       <% end %>
 
         <%= yield %>
-
     </div>  
+
+    <div id="footer">
+      <div class="container">
+        <b>Footer</b>
+        <br />
+        <%= link_to 'Link', '#' %>
+      </div>
+    </div>
   </body>
 </html>
