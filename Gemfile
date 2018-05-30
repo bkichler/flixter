@@ -68,3 +68,13 @@ gem 'simple_form'
 # Devise
 
 gem 'devise'
+
+# Image uploading
+gem 'carrierwave', '~> 1.0'
+
+# Figaro - API auth
+gem 'figaro'
+gem 'fog-aws'
+
+# Image editing
+gem 'mini_magick'

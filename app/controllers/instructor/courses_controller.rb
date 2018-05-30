@@ -18,6 +18,13 @@ class Instructor::CoursesController < ApplicationController
     def show
     end
 
+    def edit
+        @course = current_course
+        if @course.user != current_user
+            return render plain: 'Not Allowed', status: :forbidden
+        end
+    end
+
     private
 
     def require_authorized_for_current_course
@@ -32,6 +39,6 @@ class Instructor::CoursesController < ApplicationController
     end
 
     def course_params
-        params.require(:course).permit(:title, :description, :cost)
+        params.require(:course).permit(:title, :description, :cost, :image)
     end
 end
