@@ -69,8 +69,9 @@ gem 'simple_form'
 
 gem 'devise'
 
-# Image uploading
+# Image and video uploading
 gem 'carrierwave', '~> 1.0'
+gem 'carrierwave-aws'
 
 # Figaro - API auth
 gem 'figaro'
