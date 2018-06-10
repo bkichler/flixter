@@ -79,3 +79,6 @@ gem 'fog-aws'
 
 # Image editing
 gem 'mini_magick'
+
+# Collect credit card payments with Stripe
+gem 'stripe'
