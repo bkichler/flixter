@@ -82,3 +82,6 @@ gem 'mini_magick'
 
 # Collect credit card payments with Stripe
 gem 'stripe'
+
+# Ranked model 
+gem 'ranked-model'
